@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Vásár</string>
+    <string name="welcome">Bevásárlólista</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="action_share">Megosztás</string>
+    <string name="action_clear">Összes törlése</string>
+
+    <string name="btn_add">Hozzá\nadás</string>
+    <string name="btn_delete">Törlés</string>
+    <string name="clr_c">Megerősítés</string>
+    <string name="clr_q">Biztosan törölni akar mindent?</string>
+    <string name="clr_y">Igen</string>
+    <string name="clr_n">Nem</string>
+
+    <string name="s_userinfo">Felhasználó</string>
+    <string name="s_email">Email cím</string>
+    <string name="s_email_desc">Adja meg az email címet</string>
+    <string name="s_pass">Jelszó</string>
+    <string name="s_pass_desc">Adja meg a jelszót</string>
+    <string name="s_age">Kor</string>
+    <string name="s_age_desc">Adja meg a korát</string>
+    <string name="s_gender">Nem</string>
+    <string name="s_gender_desc">Nem megadása</string>
+    <string name="s_lang">Nyelv</string>
+    <string name="s_lang_desc">Válasszon nyelvet</string>
+
+    <string name="s_bg_set">Háttér beállítások</string>
+    <string name="s_bg">Háttérszín</string>
+    <string name="s_bg_desc">Háttérszín kiválasztása</string>
+
+    <string-array name="volumes">
+        <item>kg</item>
+        <item>g</item>
+        <item>l</item>
+        <item>dl</item>
+        <item>cl</item>
+        <item>darab</item>
+        <item>csomag</item>
+        <item>doboz</item>
+        <item>tucat</item>
+        <item>üveg</item>
+        <item>konzerv</item>
+        <item>rekesz</item>
+    </string-array>
+    <string-array name="gender_values">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string-array name="gender_type">
+        <item>Férfi</item>
+        <item>Nő</item>
+    </string-array>
+
+    <string-array name="colorName">
+        <item name="0">Piros</item>
+        <item name="1">Fekete</item>
+        <item name="2">Sárga</item>
+        <item name="3">Fehér</item>
+    </string-array>
+    <string-array name="colorCode">
+        <item name="0">#ff0000</item>
+        <item name="1">#111111</item>
+        <item name="2">#ffff33</item>
+        <item name="3">#ffffff</item>
+    </string-array>
+
+    <string-array name="lang_select">
+        <item>Nyelv:</item>
+        <item>Angol</item>
+        <item>Magyar</item>
+    </string-array>
+</resources>

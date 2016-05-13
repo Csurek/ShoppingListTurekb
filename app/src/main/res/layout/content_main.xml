@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Welcome to my shopping list" />
+        android:text="@string/welcome" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,9 +46,9 @@
                 android:entries="@array/volumes" />
             <Button
                 android:id="@+id/addButton"
-                android:text="Add"
+                android:text="@string/btn_add"
                 android:layout_width="0dp"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
@@ -59,18 +59,18 @@
         android:orientation="horizontal"
         android:padding="10dp" >
 
-        <Button
-            android:id="@+id/clrButton"
-            android:text="Clear All"
-            android:onClick="showDialog"
+        <TextView
             android:layout_width="0dp"
-            android:layout_weight="2"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:text="The list:" />
         <Button
             android:id="@+id/dltButton"
-            android:text="Delete"
+            android:text="@string/btn_delete"
             android:layout_width="0dp"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:layout_height="wrap_content"/>
 
      </LinearLayout>

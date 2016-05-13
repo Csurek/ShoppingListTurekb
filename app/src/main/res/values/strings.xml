@@ -1,15 +1,46 @@
 <resources>
     <string name="app_name">ShoppingList</string>
+    <string name="welcome">Your Shoppinglist</string>
     <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_clear">Clear all</string>
+
+    <string name="btn_add">Add</string>
+    <string name="btn_delete">Delete</string>
+    <string name="clr_c">Confirmation</string>
+    <string name="clr_q">Are you sure?</string>
+    <string name="clr_y">Yes</string>
+    <string name="clr_n">No</string>
+
+    <string name="s_userinfo">User information</string>
+    <string name="s_email">Email</string>
+    <string name="s_email_desc">Your email address</string>
+    <string name="s_pass">Password</string>
+    <string name="s_pass_desc">Your password</string>
+    <string name="s_age">Age</string>
+    <string name="s_age_desc">Your age</string>
+    <string name="s_gender">Gender</string>
+    <string name="s_gender_desc">Select gender</string>
+    <string name="s_lang">Language</string>
+    <string name="s_lang_desc">Please choose a language</string>
+
+    <string name="s_bg_set">Background settings</string>
+    <string name="s_bg">Background color</string>
+    <string name="s_bg_desc">Select a color</string>
+
     <string-array name="volumes">
-        <item>Kg</item>
+        <item>kg</item>
         <item>g</item>
         <item>l</item>
         <item>dl</item>
         <item>cl</item>
-        <item>pcs</item>
-        <item>bag</item>
-        <item>boxes</item>
+        <item>pc(s)</item>
+        <item>bag(s)</item>
+        <item>box(es)</item>
+        <item>dozen</item>
+        <item>bottle(s)</item>
+        <item>can(s)</item>
+        <item>rack(s)</item>
     </string-array>
     <string-array name="gender_values">
         <item>male</item>
@@ -31,5 +62,19 @@
         <item name="1">#111111</item>
         <item name="2">#ffff33</item>
         <item name="3">#ffffff</item>
+    </string-array>
+
+    <string-array name="lang_select">
+        <item>Language:</item>
+        <item>English</item>
+        <item>Hungarian</item>
+    </string-array>
+    <string-array name="lang_sel">
+        <item>English</item>
+        <item>Hungarian</item>
+    </string-array>
+    <string-array name="lang_val">
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>
