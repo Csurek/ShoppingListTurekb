@@ -1,4 +1,35 @@
 <resources>
     <string name="app_name">ShoppingList</string>
     <string name="action_settings">Settings</string>
+    <string-array name="volumes">
+        <item>Kg</item>
+        <item>g</item>
+        <item>l</item>
+        <item>dl</item>
+        <item>cl</item>
+        <item>pcs</item>
+        <item>bag</item>
+        <item>boxes</item>
+    </string-array>
+    <string-array name="gender_values">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string-array name="gender_type">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="colorName">
+        <item name="0">Red</item>
+        <item name="1">Black</item>
+        <item name="2">Yellow</item>
+        <item name="3">White</item>
+    </string-array>
+    <string-array name="colorCode">
+        <item name="0">#ff0000</item>
+        <item name="1">#111111</item>
+        <item name="2">#ffff33</item>
+        <item name="3">#ffffff</item>
+    </string-array>
 </resources>
