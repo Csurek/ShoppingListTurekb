@@ -266,11 +266,11 @@ public class MainActivity extends AppCompatActivity {
 
             SharedPreferences prefi = getSharedPreferences("my_prefs", MODE_PRIVATE);
             String langu = prefi.getString("langu", "");
-            int faszom = Integer.parseInt(langu);
+            int posi = Integer.parseInt(langu);
             Log.v("Language",langu);
-            if (faszom == 1) {
+            if (posi == 1) {
                 setLocale("en");
-            } else if (faszom == 2){
+            } else if (posi == 2){
                 setLocale("hu");
             }
             //here you could put code to do something.......
