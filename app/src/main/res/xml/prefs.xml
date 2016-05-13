@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="User info" >
+    <EditTextPreference
+        android:key="email"
+        android:summary="@string/s_email_desc"
+        android:title="@string/s_email" />
+
+        <EditTextPreference
+            android:key="passw"
+            android:summary="@string/s_pass_desc"
+            android:title="@string/s_pass" />
+
+        <EditTextPreference
+            android:key="age"
+            android:summary="@string/s_age_desc"
+            android:title="@string/s_age" />
+
+    <ListPreference
+        android:entries="@array/gender_type"
+        android:entryValues="@array/gender_values"
+        android:key="gender"
+        android:summary="@string/s_gender_desc"
+        android:title="@string/s_gender" />
+
+        <ListPreference
+            android:entries="@array/lang_sel"
+            android:entryValues="@array/lang_val"
+            android:key="langu"
+            android:summary="@string/s_lang_desc"
+            android:title="@string/s_lang" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/s_bg_set" >
+        <ListPreference
+            android:defaultValue="#111111"
+            android:entries="@array/colorName"
+            android:entryValues="@array/colorCode"
+            android:key="background_color"
+            android:summary="@string/s_bg_desc"
+            android:title="@string/s_bg" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
